@@ -16,4 +16,6 @@
 }
 #duration .caption{
     background-color: #ccc;
+    height: 0;
+    overflow: hidden;
 }
