@@ -19,3 +19,16 @@
     height: 0;
     overflow: hidden;
 }
+#details{
+    background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../img/invitation-2508607__340.jpg);
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+}
+#details .inner{
+    border: 1px solid white;
+}
+#details span{
+    font-weight: 500;
+    font-size: 30px;
+}
