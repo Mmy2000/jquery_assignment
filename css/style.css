@@ -7,3 +7,13 @@
 #home h2{
     font-size: 60px;
 }
+#duration h3{
+    margin-bottom: 0;
+}
+#duration .title{
+    cursor: pointer;
+    background-color: rgba(214, 46, 51, 0.6);;
+}
+#duration .caption{
+    background-color: #ccc;
+}
