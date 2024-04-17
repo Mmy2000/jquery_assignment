@@ -1,0 +1,9 @@
+#home{
+    height: 95vh;
+    background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../img/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#home h2{
+    font-size: 60px;
+}
