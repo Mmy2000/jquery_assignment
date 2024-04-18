@@ -96,3 +96,40 @@
     text-transform: uppercase;
         margin-top: 20px;
 }
+.side{
+    height: 100%;
+    width: 0;
+    z-index: 111111;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.side a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+.side i{
+    position: absolute;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.side i:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+.side a:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+.openBtn{
+    font-size: 30px;
+    cursor: pointer;
+}
