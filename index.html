@@ -100,12 +100,12 @@
         </div>
     </section>
     <section id="contact">
-        <div class="container m-5">
+        <div class="container p-5 m-5">
             <h2>JOIN US</h2>
             <p class="text-center p-style">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 px-5">
                     <h3>CONTACT INFO</h3>
                     <div class="caption w-100 text-center">
                         <p>Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
@@ -115,7 +115,7 @@
                     <div class="info text-center d-flex flex-column">
                         <span><i class="fa-solid fa-location-dot"></i> New Street 22545, Nexa Road, New York City,
                             USA</span>
-                        <span><i class="fa-solid fa-envelope"></i> hello@uigrid.com</span>
+                        <span class="text-danger"><i class="fa-solid fa-envelope"></i> hello@uigrid.com</span>
                         <span><i class="fa-solid fa-phone"></i> 001-000-000-000</span>
                     </div>
                     <div class="icons d-flex">
@@ -136,6 +136,15 @@
                         </div>
                     </div>
 
+                </div>
+                <div class="col-md-6">
+                    <form action="">
+                        <input type="text" placeholder="Enter Name" class="form-control">
+                        <input type="email" placeholder="Enter Name" class="form-control">
+                        <textarea  placeholder="Enter Message" class="form-control"></textarea>
+                    </form>
+                    <span id="char" class="text-danger m-2 fs-4">100</span>Characyer Reamining
+                    <button class="btn d-block">Send Message</button>
                 </div>
             </div>
         </div>

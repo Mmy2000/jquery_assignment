@@ -79,3 +79,20 @@
     background-color: #D62E33;
     border: 1px solid #D62E33;
 }
+#contact input{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+        height: 200px;
+}
+#contact button{
+        background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+        margin-top: 20px;
+}
