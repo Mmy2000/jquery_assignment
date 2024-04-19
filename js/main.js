@@ -1,7 +1,7 @@
-// $('#duration .title').click(function(){
-//     $('.caption').not($(this).next()).slideUp(500);
-//     $(this).next().slideToggle(500);
-// });
+$('.toggle').click(function(){
+     $('.caption').slideToggle(500)
+})
+
 
 var maxLength = 100;
 $('textarea').keyup(function() {

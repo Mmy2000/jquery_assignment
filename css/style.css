@@ -16,8 +16,8 @@
 }
 #duration .caption{
     background-color: #ccc;
-    height: 0;
     overflow: hidden;
+    display: none;
 }
 #details{
     background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../img/invitation-2508607__340.jpg);
