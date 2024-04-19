@@ -16,7 +16,6 @@ $('.toggle-4').click(function(e){
      
 })
 
-
 var maxLength = 100;
 $('textarea').keyup(function() {
   var length = $(this).val().length;
