@@ -19,6 +19,21 @@
     overflow: hidden;
     display: none;
 }
+#duration .caption-2{
+    background-color: #ccc;
+    overflow: hidden;
+    display: none;
+}
+#duration .caption-3{
+    background-color: #ccc;
+    overflow: hidden;
+    display: none;
+}
+#duration .caption-4{
+    background-color: #ccc;
+    overflow: hidden;
+    display: none;
+}
 #details{
     background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../img/invitation-2508607__340.jpg);
     height: 40vh;
