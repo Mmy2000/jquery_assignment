@@ -29,3 +29,18 @@ $('textarea').keyup(function() {
         $("#chars").text(AmountLeft + ' Characyer Reamining');
         }
 });
+
+$('#openBtn').click(function(e){
+     $('.side').css('width','250px')
+     $('.openBtn').css('left','250px')
+})
+$('#closeBtn').click(function(e){
+     $('.side').css('width','0px')
+     $('.openBtn').css('left','0px')
+})
+
+$('.side a').click(function(e){
+    let linkHref = $(e.target).attr('href')
+    let sectionOffset = $(linkHref).offset().top
+    $('body').animate({scrollTop:sectionOffset},500)
+})
