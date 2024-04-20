@@ -47,7 +47,7 @@ $('.side a').click(function(e){
 
 window.onload = function() {
    
-    countDownToTime("21 april 2024 10:00:00");
+    countDownToTime("22 april 2024 10:00:00");
   }
 
   function countDownToTime(countTo) {
