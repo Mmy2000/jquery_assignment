@@ -1,18 +1,22 @@
 
 $('.toggle-1').click(function(e){
      $('#caption-1').slideToggle(500)
+     $('.caption-1').siblings('div .cap').slideUp(500)
      
 })
 $('.toggle-2').click(function(e){
      $('.caption-2').slideToggle(500)
+     $('.caption-2').siblings('div .cap').slideUp(500)
      
 })
 $('.toggle-3').click(function(e){
      $('.caption-3').slideToggle(500)
+     $('.caption-3').siblings('div .cap').slideUp(500)
      
 })
 $('.toggle-4').click(function(e){
      $('.caption-4').slideToggle(500)
+     $('.caption-4').siblings('div .cap').slideUp(500)
      
 })
 

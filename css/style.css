@@ -14,7 +14,7 @@
     cursor: pointer;
     background-color: rgba(214, 46, 51, 0.6);;
 }
-#duration .caption{
+#duration .caption-1{
     background-color: #ccc;
     overflow: hidden;
     display: none;
